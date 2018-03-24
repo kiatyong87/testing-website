@@ -1,0 +1,55 @@
+.parent {
+    border: solid 1px black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("https://www.nissan-cdn.net/content/dam/Nissan/singapore/vehicles/gt-r/r351/eurhd/2_minor_change/overview/17TDIeurhd_GTRHelios014.jpg.ximg.l_full_m.smart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.child {
+  display: flex;
+  width: 80%;
+}
+.column {
+  width: 33%;
+  height: 20%;
+  border: double 3px white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px; 
+  color: white;
+  font-weight: bold;
+  font-size: 30px; 
+  flex-direction: column;
+  font-family: cursive;
+  transition: .2s ease-in-out;
+}
+.column:hover {
+  width: 40%;
+  height: 30%;
+  font-size: 40px;
+  cursor: crosshair; 
+}
+.header {
+  font-family: cursive;
+  font-weight: bold;  
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-bottom: 50px;
+  transition: .2s ease-in-out;
+}
+.header:hover {
+font-size: 150px;
+}
+a {
+  text-decoration: none
+}
